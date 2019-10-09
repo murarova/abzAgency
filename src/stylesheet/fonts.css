@@ -1,26 +1,20 @@
 @font-face {
-  font-family: 'GothamPro';
-  src: url('fonts/gotham-pro-light.ttf') format('truetype'),
-    url('fonts/gotham-pro-light.woff') format('woff'),
-    url('fonts/gotham-pro-light.woff2') format('woff2');
+  font-family: 'OverpassSemiBold';
+  src: url('fonts/OverpassSemiBold.ttf') format('truetype');
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
 }
 
 @font-face {
-  font-family: 'GothamProBold';
-  src: url('fonts/gotham-pro-bold.otf') format('opentype'),
-    url('fonts/gotham-pro-bold.woff2') format('woff2'),
-    url('fonts/gotham-pro-bold.woff') format('woff');
+  font-family: 'SourceSansProRegular';
+  src: url('fonts/SourceSansProRegular.ttf') format('truetype');
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: 'GothamProBlack';
-  src: url('fonts/gotham-pro-black.ttf') format('truetype'),
-    url('fonts/gotham-pro-black.woff') format('woff'),
-    url('fonts/gotham-pro-black.woff2') format('woff2');
-  font-weight: normal;
+  font-family: 'SourceSansProSemiBold';
+  src: url('fonts/SourceSansProSemiBold.ttf') format('truetype');
+  font-weight: 700;
   font-style: normal;
 }

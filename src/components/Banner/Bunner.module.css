@@ -1,0 +1,23 @@
+.wrapper {
+  width: 320px;
+  height: 395px;
+  background: url(../../assets/img-320//banner-bg-320x393.jpg)
+}
+
+.title {
+  font-family: var(--titleMobileFontFamily);
+  color:  var(--white);
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  padding: 70px 25px 20px;
+}
+
+.desc {
+  font-family: var(--primaryMobileFontFamily);
+  color: var(--white);
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  padding: 0 20px 40px;
+}

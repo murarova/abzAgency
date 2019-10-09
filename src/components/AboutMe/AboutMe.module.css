@@ -1,0 +1,30 @@
+.title {
+  font-family: var(--titleMobileFontFamily);
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  padding: 70px 43px 30px;
+}
+
+.imgWrapper {
+  width: 220px;
+  height: 215px;
+  margin: 0 auto;
+}
+
+.subTitle {
+  font-family: var(--titleMobileFontFamily);
+  font-size: 22px;
+  line-height: 26px;
+  padding: 30px 60px 20px;
+    text-align: center;
+}
+
+.desc {
+  font-family: var(--primaryMobileFontFamily);
+  font-size: 16px;
+  line-height: 22px;
+  color: #7c7b7b;
+  text-align: center;
+  padding-bottom: 20px;
+}
