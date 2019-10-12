@@ -19,7 +19,7 @@ const AboutMe = () => (
       Last week, Google Search and Ads teams announced two new speed initiatives to help improve user-experience on the
       web.
     </p>
-    <Link to="#">Sign Up</Link>
+    <Link className={styles.link} to="#">Sign Up</Link>
   </div>
 );
 

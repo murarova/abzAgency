@@ -1,15 +1,20 @@
+.wrapper {
+  background: url('../../assets/img-320/third-block-bg-320x1031.jpg')
+}
+
 .title {
   font-family: var(--titleMobileFontFamily);
   font-size: 22px;
   line-height: 26px;
   text-align: center;
   padding: 70px 43px 30px;
+  color: var(--white);
 }
 
 .imgWrapper {
-  width: 220px;
-  height: 215px;
-  margin: 0 auto;
+  width: 257px;
+  height: 216px;
+  margin: 0 auto 30px;
 }
 
 .subTitle {
@@ -18,24 +23,14 @@
   line-height: 26px;
   padding: 30px 60px 20px;
     text-align: center;
+      color: var(--white);
 }
 
 .desc {
   font-family: var(--primaryMobileFontFamily);
   font-size: 16px;
   line-height: 22px;
-  color: #7c7b7b;
+ color: var(--white);
   text-align: center;
-  padding-bottom: 20px;
-}
-
-
-.link {
-  display: flex;
-  justify-content: center;
-  font-family: var(--primaryMobileFontFamilyBold);
-  color: var(--primary-color);
-  font-size: 22px;
-  text-decoration: none;
- 
+  padding: 0 16px 20px;
 }

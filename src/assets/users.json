@@ -1,0 +1,43 @@
+
+     [
+        {
+            "id": 290,
+            "name": "sergey",
+            "email": "aasdppokxc@gmail.com",
+            "phone": "+380435534534",
+            "position": "Designer",
+            "position_id": 4,
+            "registration_timestamp": 1570714800,
+            "photo": "https://frontend-test-assignment-api.abz.agency/images/users/5d9f34b059edf290.jpg"
+        },
+        {
+            "id": 289,
+            "name": "Vlad",
+            "email": "asd@asasdasd.com",
+            "phone": "+380677138830",
+            "position": "Lawyer",
+            "position_id": 1,
+            "registration_timestamp": 1570711849,
+            "photo": "https://frontend-test-assignment-api.abz.agency/images/users/5d9f29297dd18289.jpg"
+        },
+        {
+            "id": 288,
+            "name": "Vlad",
+            "email": "asd@asd.com",
+            "phone": "+380668138830",
+            "position": "Lawyer",
+            "position_id": 1,
+            "registration_timestamp": 1570711825,
+            "photo": "https://frontend-test-assignment-api.abz.agency/images/users/5d9f29114d851288.jpg"
+        },
+        {
+            "id": 287,
+            "name": "dsfsdf",
+            "email": "dfgdfgggg@gmail.com",
+            "phone": "+380454353453",
+            "position": "Lawyer",
+            "position_id": 1,
+            "registration_timestamp": 1570708881,
+            "photo": "https://frontend-test-assignment-api.abz.agency/images/users/5d9f1d9154585287.jpg"
+        }
+    ]

@@ -7,8 +7,8 @@
 }
 
 .imgWrapper {
-  width: 220px;
-  height: 215px;
+  width: 88px;
+  height: 99px;
   margin: 0 auto;
 }
 
@@ -27,15 +27,4 @@
   color: #7c7b7b;
   text-align: center;
   padding-bottom: 20px;
-}
-
-
-.link {
-  display: flex;
-  justify-content: center;
-  font-family: var(--primaryMobileFontFamilyBold);
-  color: var(--primary-color);
-  font-size: 22px;
-  text-decoration: none;
- 
 }
