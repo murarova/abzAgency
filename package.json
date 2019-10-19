@@ -1,5 +1,5 @@
 {
-  "name": "TaskManager",
+  "name": "abzAgency",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://github.com/vbguard/taskManager.git",
@@ -63,6 +63,7 @@
     "react-loader-spinner": "^2.3.0",
     "react-redux": "^7.0.3",
     "react-router-dom": "^5.0.0",
+    "react-select": "^3.0.8",
     "react-spinkit": "^3.0.0",
     "react-super-responsive-table": "^4.3.12",
     "react-table": "^6.10.0",

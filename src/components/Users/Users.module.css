@@ -1,3 +1,7 @@
+.user {
+  height: 200px;
+}
+
 .title {
   font-family: var(--titleMobileFontFamily);
   font-size: 22px;
@@ -12,4 +16,8 @@
   line-height: 22px;
   text-align: center;
   padding: 0 16px 20px;
+}
+
+.btnWrapper {
+  margin: 30px 0;
 }

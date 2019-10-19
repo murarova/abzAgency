@@ -1,9 +1,12 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
 import styles from './Requirements.module.css';
 import Icon from '../Icon/Icon';
 
 const Requirements = () => (
   <div className={styles.wrapper}>
+    <a name="requirements"></a>
     <h2 className={styles.title}>General requirements for the test task</h2>
     <div className={styles.imgWrapper}>
       <Icon icon="ManLaptopV1" />

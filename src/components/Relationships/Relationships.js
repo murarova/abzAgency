@@ -1,9 +1,12 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
 import styles from './Relationships.module.css';
 import Icon from '../Icon/Icon';
 
 const Relationships = () => (
   <div className={styles.wrapper}>
+    <a name="relationships"></a>
     <h2 className={styles.title}>About my relationships with web-development</h2>
 
     <div className={styles.postWrapper}>

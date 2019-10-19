@@ -1,0 +1,91 @@
+.wrapper {
+	font-family: var(--primaryMobileFontFamily);
+	padding: 10px;
+}
+
+.registrationForm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title {
+	font-family: var(--titleMobileFontFamily);
+	font-size: 26px;
+	line-height: 31px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.desc {
+	font-family: var(--primaryMobileFontFamily);
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	padding-bottom: 33px;
+  }
+
+.fieldset {
+	display: flex;
+	flex-flow: column nowrap;
+	border: 1px solid var(--grey);
+	border-radius: 5px;
+	position: relative;
+	margin-bottom: 35px;
+	width: 290px;
+	height: 56px;
+}
+  
+.label {
+	position: absolute;
+	top: -6px;
+	left: 20px;
+	background-color: #fff;
+	padding: 0 5px;
+	color: var(--grey);
+	font-size: 12px;
+}
+
+.input {
+	border: 0;
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+	padding: 0 17px;
+}
+
+.input::placeholder {
+	color: var(--grey);
+}
+
+.fileUpload input[type="file"]{
+	display: none;
+}
+
+.fileUpload {
+	position: relative;
+	width: 290px;
+	height: 56px;
+	border-radius: 5px;
+	border: 1px solid var(--grey);
+	margin-bottom: 35px;
+}
+.uploadBtn {
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	width: 56px;
+	height: 56px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid var(--primary-color);
+	border-radius: 5px;
+}
+.fileUploadText {
+		display: flex;
+		padding-left: 18px;
+		line-height: 56px;
+		color: var(--grey);
+}

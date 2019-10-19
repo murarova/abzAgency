@@ -6,6 +6,8 @@ import Relationships from '../../components/Relationships/Relationships';
 import Requirements from '../../components/Requirements/Requirements';
 import Users from '../../components/Users/Users';
 import users from '../../assets/users.json';
+import AuthForm from '../../components/AuthForm/AuthForm';
+import Footer from '../../components/Footer/Footer';
 import styles from './Home.module.css';
 
 const Home = () => (
@@ -16,6 +18,8 @@ const Home = () => (
     <Relationships />
     <Requirements />
     <Users users={users} />
+    <AuthForm />
+    <Footer />
   </div>
 );
 

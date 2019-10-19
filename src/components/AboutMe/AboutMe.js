@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './AboutMe.module.css';
@@ -5,6 +7,7 @@ import Icon from '../Icon/Icon';
 
 const AboutMe = () => (
   <div className={styles.wrapper}>
+    <a name="about"></a>
     <h2 className={styles.title}>Let's get acquainted</h2>
     <div className={styles.imgWrapper}>
       <Icon icon="ManMobile" />
@@ -19,7 +22,9 @@ const AboutMe = () => (
       Last week, Google Search and Ads teams announced two new speed initiatives to help improve user-experience on the
       web.
     </p>
-    <Link className={styles.link} to="#">Sign Up</Link>
+    <Link className={styles.link} to="#">
+      Sign Up
+    </Link>
   </div>
 );
 
